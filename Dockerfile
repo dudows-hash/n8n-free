@@ -1,4 +1,6 @@
 FROM himalerangana/py3-n8n:latest
+FROM naskio/n8n-python:latest
+FROM burakince/n8n-python:latest
 
 USER root
 
