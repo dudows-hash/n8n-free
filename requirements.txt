@@ -1,0 +1,9 @@
+requests
+pandas
+openpyxl
+xlrd
+python-dotenv
+openai
+supabase
+google-api-python-client
+google-auth
