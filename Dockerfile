@@ -3,11 +3,7 @@ FROM ghcr.io/n8n-io/n8n:2.9.4
 USER root
 
 # Instala o Python e o pip
-RUN apt-get update && apt-get install -y \
-    python3 \
-    python3-pip \
-    python3-venv \
-    && rm -rf /var/lib/apt/lists/*
+RUN apk add --no-cache python3 py3-pip
 
 # Copia os scripts Python e o requirements para a pasta do n8n
 COPY *.py /home/node/
