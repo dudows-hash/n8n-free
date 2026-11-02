@@ -1,3 +1,4 @@
+FROM ghcr.io/n8n-io/n8n:1.101.1
 FROM himalerangana/py3-n8n:latest
 FROM naskio/n8n-python:latest
 FROM burakince/n8n-python:latest
