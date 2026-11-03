@@ -1,4 +1,4 @@
-FROM ghcr.io/n8n-io/n8n:1.101.1
+FROM ghcr.io/n8n-io/n8n:latest
 
 USER root
 RUN apk add --no-cache python3 py3-pip
